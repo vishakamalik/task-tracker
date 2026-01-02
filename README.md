@@ -113,7 +113,9 @@ task-tracker/
 │   ├── db/
 │   │   └── connect.js      # Database Connection
 │   ├── models/
-[cite_start]│   │   └── Task.js         # Mongoose Schema [cite: 25]
+        └── task.models.js         # Mongoose Schema
+│   ├── controllers/
+        └── task.controllers.js    # Controller Functions
 │   ├── routes/
 │   │   └── task.routes.js  # API Routes
 │   ├── server.js           # Server Entry Point
